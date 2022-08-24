@@ -35,7 +35,7 @@ abbr prg "npx prisma generate"
 abbr prs "npx prisma studio"
 
 if type -q exa
-	alias ll "exa -l -g --icons"
+	alias ll "exa -l --icons --group-directories-first --time-style long-iso"
 	alias lla "ll -a"
 end
 
